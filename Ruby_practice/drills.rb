@@ -94,6 +94,28 @@ p nums.reject { |num| num % 3 == 0}
 
 p nums.select { |num| num % 5 == 0 }
 
+#========================================
+# Color Array
+#========================================
+
+# With the following array:
+
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+# 1. Print out a random color.
+
+puts colors[rand(colors.length)]
+
+# 2. Print out the colors array in reverse order.
+
+p colors.reverse
+
+# 3. Print out all of the colors in the array with all capital letters.
+
+p colors.map(&:upcase)
+
+
+
 
 
 
