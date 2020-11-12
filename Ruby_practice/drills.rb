@@ -114,6 +114,55 @@ p colors.reverse
 
 p colors.map(&:upcase)
 
+#========================================
+# Methods
+#========================================
+
+# 1. Write a method named find_area that finds the area of a rectangle when given values for width and height
+
+def find_area height, width
+    height * width
+end
+
+p find_area 4, 4
+
+# 2. Write a method named multiply_each_by_five that will loop over the given nums array below and print each number multiplied by 5
+
+nums = [5, 5, 6, 7, 2, 4, 3, 2, 1, 9, 7, 6, 0, 0]
+
+def multiply_each_by_five arr
+    arr.each{ |i| p i * 5}
+end
+
+multiply_each_by_five nums
+
+#========================================
+# Methods with a hash
+#========================================
+
+Use the following given hashes to solve the problems below
+
+book = {
+  title: 'The Great Gatsby',
+  author: 'F Scott Fitzgerald',
+  year: 1925,
+  price: 10
+}
+
+lamp = {
+  type: 'reading',
+  brand: 'Ikea',
+  price: 25
+}
+
+table = {
+  type: 'bed side',
+  brand: 'Crate & Barrel',
+  color: 'birch',
+  price: 50
+}
+
+# 1. Write a method named print_price that will take in any hash and return the price of the item.
 
 
 
