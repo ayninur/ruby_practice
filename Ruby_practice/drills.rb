@@ -183,7 +183,7 @@ print_items_sums(lamp, table)
 # Solving Problems with Ruby
 #========================================
 
-# Euler Problem 1
+# 1. Euler Problem 1
 # If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
 p (1...10).select{|n| n % 3 == 0 || n % 5 == 0}.reduce(:+)
@@ -193,6 +193,22 @@ p (1...10).select{|n| n % 3 == 0 || n % 5 == 0}.reduce(:+)
 p (1...1000).select{|n| n % 3 == 0 || n % 5 == 0}.reduce(:+)
 
 
+#========================================
+# Primes
+#========================================
 
+# 1. Write a method called check_prime? that will test whether a number is Prime. The method will return true if Prime, false if not.
+
+def check_prime 
+    
+end
+
+# ruby docs
+# primes: https://ruby-doc.org/stdlib-2.5.3/libdoc/prime/rdoc/Prime.html#method-i-prime-3F
+# arrays: https://ruby-doc.org/core-2.5.3/Array.html
+# Strings: https://ruby-doc.org/core-2.5.3/String.html
+# Enumerator: https://ruby-doc.org/core-2.5.3/Enumerator.html
+# Enumerable: https://ruby-doc.org/core-2.5.3/Enumerable.html#method-i-reduce 
+# 
 
 
