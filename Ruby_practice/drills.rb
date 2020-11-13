@@ -140,7 +140,7 @@ multiply_each_by_five nums
 # Methods with a hash
 #========================================
 
-Use the following given hashes to solve the problems below
+# Use the following given hashes to solve the problems below
 
 book = {
   title: 'The Great Gatsby',
@@ -164,7 +164,20 @@ table = {
 
 # 1. Write a method named print_price that will take in any hash and return the price of the item.
 
+def print_price any_hash
+    p any_hash[:price]
+end
 
+print_price table
+print_price lamp
+print_price book
+
+# 2. Write a method named print_item_sums that will take in two hashes and will return the sum of the prices for the items in the hashes.
+
+def print_items_sums (hash1, hash2)
+    p hash1[:price] + hash2[:price]
+end
+print_items_sums(lamp, table)
 
 
 
